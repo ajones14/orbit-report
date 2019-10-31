@@ -19,11 +19,5 @@ export class Satellite {
         return false;
     }
 
-    totalOfType(satelliteType: string): number {
-        let count: number = 0;
-        if (this.type === 'Space Debris') {
-            count++;
-        }
-        return count;
-    }
+    
 }
